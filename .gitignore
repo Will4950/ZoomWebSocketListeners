@@ -443,3 +443,28 @@ build/
 .idea/
 .vscode/
 *.swp
+
+# Will ignore everything under the /target directory
+rust/target/
+
+# Remove Cargo.lock from version control if it's not a binary or library project
+# Cargo.lock
+
+# Ignore build artifacts and intermediate files
+*.rs.bk
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the `go build` command
+go/build/
+
+# Go workspace files
+*.sum
